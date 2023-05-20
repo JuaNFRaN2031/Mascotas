@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Perros, Gatos, Alimentación de Animales, Servicios y cuidados para mascotas">
+    <meta name="autor" description="Juan Francisco Morcillo Sanchez">
+    <title>Contacta con Nosotros</title>
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header-contenedor">
+        <div class="imagen-header">
+            <img src="img/mascotas_head.png" alt="Mascotas">
+        </div>
+        <nav class="menuP">
+            <ul class="menu menu-shadow">
+                <li class="menu"><a href="index.html" title="Ir al Inicio" class="menu">Inicio</a></li>
+                <li class="menu"><a href="qsomos.html" title="Quiénes Somos" class="menu">Quiénes Somos</a></li>
+                <li class="menu"><a href="servicios.html" title="Servicios" class="menu">Servicios</a></li>
+                <li class="menu"><a href="ctto.html" title="Contacta con nosotros" class="menu">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Contactenos</h1>
+    <div class="div-contacto">
+        <p>+COTAS Toledo: Ronda de Toledo, 30. Telf: 999 999 999</p>
+        <p>+COTAS Toledo: Ronda de Toledo, 30. Telf: 999 999 999</p>
+        <p>+COTAS Cuenca: Calle Molinos, 25. Telf: 999 999 555</p>
+    </div>
+    <br>
+    <h1>Formulario de Contacto</h1>
+    <form action="index.html" method="get" enctype="multipart/form-data">
+        <div class="div-contacto">
+            <br>
+            <label for="name">Nombre y Apellidos: *</label>
+            <input type="text" name="name" id="name" placeholder="Tu nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑüÜ ]+"
+                required>
+            <br><br>
+            <label for="correo">Tu Email:</label>
+            <br><br>
+            <input type="email" name="correo" size="25" id="correo" placeholder="tunombre@dominio.com">
+            <br><br>
+            <p>
+                <input type="submit" value="Enviar" class="botones-formulario">
+                <input type="reset" value="Limpiar" class="botones-formulario">
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>
